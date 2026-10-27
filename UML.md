@@ -49,7 +49,7 @@ classDiagram
    +mostrarEjercitos() void
    +moverEjercito(reino,fila,columna,direccion) boolean
    +juegoTerminado() boolean
-   +getGanador() String
+   +getGanador() String 
  }
  class JuegoLaboratorio9 {
    +main(args) void
