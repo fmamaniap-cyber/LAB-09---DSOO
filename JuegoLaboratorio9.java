@@ -29,6 +29,7 @@ public class JuegoLaboratorio9 {
             } else {
                 System.out.println("Intente nuevamente; no se cambia el turno.");
             }
+            
         }
         if (mapa.juegoTerminado()) System.out.println("\n¡Ganó " + mapa.getGanador() + "! El otro reino se quedó sin ejércitos.");
         else System.out.println("Partida finalizada por el usuario.");
